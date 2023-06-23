@@ -5,7 +5,7 @@
  * @head: pointer to the stack head
  * @counter: line number
  * Return: void
-*/
+ */
 void f_pint(stack_t **head, unsigned int counter)
 {
 	if (*head == NULL)
@@ -18,3 +18,4 @@ void f_pint(stack_t **head, unsigned int counter)
 	}
 	printf("%d\n", (*head)->n);
 }
+
