@@ -17,8 +17,7 @@ void f_mod(stack_t **head, unsigned int counter)
 	{
 		ptr = ptr->next;
 		length++;
-	}
-	
+	}	
 	if (length < 2)
 	{
 		fprintf(stderr, "L%d: unable to perform modulo operation, stack too short\n", counter);

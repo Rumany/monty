@@ -1,4 +1,5 @@
 #include "monty.h"
+
 bus_t bus = {NULL, NULL, NULL, 0};
 
 /**
@@ -48,5 +49,5 @@ int main(int argc, char *argv[])
 
 	free_stack(stack);
 	fclose(monty_file);
-	return 0;
+	return (0);
 }

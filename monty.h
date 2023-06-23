@@ -14,7 +14,7 @@
  * @next:identifies the following item in the stack (or queue).
  *
  * Description: Stack, queues, LIFO, and FIFO node structures 
- *  for doubly linked lists project in Holberton
+ * for doubly linked lists project in Holberton
  */
 typedef struct stack_s
 {
@@ -55,9 +55,9 @@ char *_realloc(char *ptr, unsigned int old_size, unsigned int new_size);
 ssize_t getline(char **lineptr, size_t *n, FILE *stream);
 ssize_t getstdin(char **lineptr, int file);
 char  *clean_line(char *content);
-void f_push(stack_t **head, unsigned int number);
-void f_pall(stack_t **head, unsigned int number);
-void f_pint(stack_t **head, unsigned int number);
+void f_push(stack_t **head, unsigned int counter);
+void f_pall(stack_t **head, unsigned int counter);
+void f_pint(stack_t **head, unsigned int counter);
 int execute(char *content, stack_t **head, unsigned int counter, FILE *file);
 void free_stack(stack_t *head);
 void f_pop(stack_t **head, unsigned int counter);
