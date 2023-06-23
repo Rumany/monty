@@ -5,7 +5,7 @@
  * @head: pointer to the stack head
  * @counter: line number
  * Return: void
-*/
+ */
 void f_push(stack_t **head, unsigned int counter)
 {
 	int value, index = 0, flag = 0;
